@@ -1,0 +1,240 @@
+module Pipeline_CPU( clk_i, rst_n );
+//I/O port
+input         clk_i;
+input         rst_n;
+
+//Internal Signles
+wire [31:0]instr_addr;
+wire [31:0] instr_addr4;
+wire [31:0]instr;
+wire [31:0]data;
+wire [31:0]r_data1;
+wire [31:0]r_data2;
+wire [31:0]w_data;
+wire [31:0]write_data;
+wire [31:0]z_data;
+wire [31:0]s_data;
+wire [31:0]rtoalu_data;
+wire [31:0]aluresult_data;
+wire [31:0]tomem;
+wire [31:0]shfit_data;
+wire regdst,regwrite,alusrc,memtoreg,zero,jal_alu_src,notz;
+wire memwrite,memread,branch,branch_type,pcsrc,jalsrc;
+wire jump;
+wire [2:0]aluop;
+wire [4:0]w_reg;
+wire [4:0]wregdata;
+wire [3:0]alu_oper;
+wire [1:0]furslt;
+wire [4:0]shamt_reg;
+wire [31:0]mem_data;
+wire [31:0]to_mem_data;
+wire [31:0]j_data;
+wire [31:0]branch_data;
+wire [31:0]branch_addr;
+wire [31:0]pc_branch;
+wire [31:0]instr_addr_back;
+wire [31:0]jump_data;
+wire [31:0]instr_addr_back_tmp;
+wire z,overflow;
+
+Program_Counter PC(
+        .clk_i(clk_i),      
+	.rst_n(rst_n),     
+	.pc_in_i(instr_addr_back),   
+	.pc_out_o(instr_addr) 
+	);
+	
+Adder Adder1(
+        .src1_i(instr_addr),     
+	.src2_i(32'd4),
+	.sum_o(instr_addr4)    
+	);
+	
+Instr_Memory IM(
+        .pc_addr_i(instr_addr),  
+	.instr_o(instr)    
+	);
+
+Reg_File RF(
+        .clk_i(clk_i),      
+	.rst_n(rst_n) ,     
+        .RSaddr_i(instr[25:21]) ,  
+        .RTaddr_i(instr[20:16]) ,  
+        .RDaddr_i(wregdata) ,  
+        .RDdata_i(write_data)  , 
+        .RegWrite_i(regwrite),
+        .RSdata_o(r_data1) ,  
+        .RTdata_o(r_data2)   
+        );
+	
+Decoder Decoder(
+        .instr_op_i(instr[31:26]), 
+	.RegWrite_o(regwrite), 
+	.ALUOp_o(aluop),   
+	.ALUSrc_o(alusrc),   
+	.RegDst_o(regdst),
+	.jump_o(jump),
+	.branch_o(branch),
+	.branchtype_o(branch_type),
+	.memwrite_o(memwrite),
+	.memread_o(memread),
+	.memtoreg_o(memtoreg),
+	.jal_o(jalsrc)
+	);
+
+ALU_Ctrl AC(
+        .funct_i(instr[5:0]),   
+        .ALUOp_i(aluop),   
+        .ALU_operation_o(alu_oper),
+	.FURslt_o(furslt),
+	.jalalu_o(jal_alu_src),
+	.opcode(instr[31:26])
+        );
+	
+Sign_Extend SE(
+        .data_i(instr[15:0]),
+        .data_o(s_data)
+        );
+
+Mux2to1 #(.size(32)) ALU_src2Src(
+        .data0_i(r_data2),
+        .data1_i(s_data),
+        .select_i(alusrc),
+        .data_o(rtoalu_data)
+        );	
+		
+ALU ALU(
+	.aluSrc1(r_data1),
+	.aluSrc2(rtoalu_data),
+	.ALU_operation_i(alu_oper),
+	.result(aluresult_data),
+	.zero(z),
+	.overflow(overflow),
+	.bonous(instr[5:0]),
+	.opcode(instr[31:26])
+	);
+
+Data_Memory DM(
+	.clk_i(clk_i),
+	.addr_i(tomem),
+	.data_i(r_data2),
+	.MemRead_i(memread),
+	.MemWrite_i(memwrite),
+	.data_o(mem_data)
+	);
+
+Shifter branch_shifter( 
+	.result(branch_data), 
+	.leftRight(32'd1),
+	.shamt(32'd2),
+	.sftSrc(s_data) 
+	);
+
+Mux2to1 #(.size(32)) memory_src2Src(
+        .data0_i(tomem),
+        .data1_i(mem_data),
+        .select_i(memtoreg),
+        .data_o(w_data)
+        );	
+
+Mux2to1 #(.size(32)) ALU_src2Src(
+        .data0_i(r_data2),
+        .data1_i(s_data),
+        .select_i(alusrc),
+        .data_o(rtoalu_data)
+        );	
+
+Mux2to1 #(.size(4)) rd_src(
+	.data0_i(),
+        .data1_i(),
+        .select_i(),
+        .data_o()
+	);
+
+Mux2to1 #(.size(32)) pc_src(
+	.data0_i(),
+        .data1_i(),
+        .select_i(),
+        .data_o()
+	);
+
+IFID_reg reg1(
+	.clk_i(), 
+	.rst_n(), 
+	.pc_addr_i(), 
+	.pc_instr_i(), 
+	.pc_instr_o(), 
+	.pc_addr_o()
+	);
+
+IDEX_reg reg2(
+	.clk_i(), 
+	.rst_n(), 
+	.pc_addr_i(), 
+	.pc_addr_o(), 
+	.aluop_i(),
+	.aluop_o(), 
+	.alusrc_i(), 
+	.alusrc_o(), 
+	.regdst_i(), 
+	.regdst_o(), 
+	.memread_i(), 
+	.memread_o(), 
+	.memwrite_i(), 
+	.memwrite_o(),
+	.branch_i(),
+	.branch_o(), 
+	.branchtype_i(), 
+	.branchtype_o(), 
+	.memtoreg_i(), 
+	.memtoreg_o(), 
+	.pc_addr_i(), 
+	.pc_addr_o(), 
+	.rs_addr_i(),
+	.rs_addr_o(), 
+	.rt_addr_i(), 
+	.rt_addr_o(),
+	.rs_data_i(), 
+	.rs_data_o(),
+	.rt_data_i(), 
+	.rt_data_o(), 
+	.sign_data_i(), 
+	.sign_data_o(), 
+	.RegWrite_i(), 
+	.RegWrite_o()
+	);
+
+EXMEM_reg reg3(
+	.clk_i(), 
+	.rst_n(), 
+	.pc_addr_i(), 
+	.pc_addr_o(), 
+	.memread_i(), 
+	.memread_o(), 
+	.memwrite_i(), 
+	.memwrite_o(), 
+	.branch_i(), 
+	.branch_o(), 
+	.branchtype_i(), 
+	.branchtype_o(), 
+	.memtoreg_i(), 
+	.memtoreg_o(),
+	.alu_i(), 
+	.alu_o(), 
+	.rt_i(), 
+	.rt_o(), 
+	.rd_addr_i(), 
+	.rd_addr_o(), 
+	.branch_data_i(), 
+	.branch_data_o(), 
+	.RegWrite_i(), 
+	.RegWrite_o()
+	);
+
+MEMWB_reg reg4(
+	.clk_i(), 
+	.rst_n(), dm_i, dm_o , alu_i , alu_o , memtoreg_i , memtoreg_o , rd_addr_i , rd_addr_o , RegWrite_i , RegWrite_o
+	);
+and(pcsrc,branch,zero);
+endmodule

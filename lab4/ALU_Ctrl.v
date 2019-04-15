@@ -1,0 +1,25 @@
+module ALU_Ctrl( funct_i, ALUOp_i, ALU_operation_o, FURslt_o ,jalalu_o,opcode);
+
+//I/O ports 
+input      [6-1:0] funct_i;
+input      [3-1:0] ALUOp_i;
+input      [5:0]opcode;
+
+output     [4-1:0] ALU_operation_o;  
+output     [2-1:0] FURslt_o;
+output      jalalu_o;
+     
+//Internal Signals
+wire		[4-1:0] ALU_operation_o;
+wire		[2-1:0] FURslt_o;
+wire bonous;
+//Main function
+/*your code here*/
+assign bonous = (funct_i == 4 || funct_i == 6) &&  opcode == 0;
+assign ALU_operation_o[0] = (funct_i == 37 || funct_i == 42 || funct_i == 0)&& ALUOp_i[1];
+assign ALU_operation_o[1] = ((funct_i == 32|| funct_i == 34 || funct_i == 42 )&& ALUOp_i[1])|| ALUOp_i == 3'b100 || ALUOp_i == 3'b000|| ALUOp_i == 3'b001|| ALUOp_i == 3'b110;
+assign ALU_operation_o[2] = (funct_i == 34 || funct_i == 39 || funct_i == 42)&& ALUOp_i[1] || ALUOp_i == 3'b001|| ALUOp_i == 3'b110;
+assign ALU_operation_o[3] = funct_i == 39 && ALUOp_i[1];
+assign FURslt_o = (ALUOp_i[0] == 1) ? 2 :(((funct_i == 0 || funct_i == 2) && ALUOp_i == 3'b010) ? 1:0);
+assign jalalu_o = (funct_i == 8 && ALUOp_i == 3'b010);
+endmodule     

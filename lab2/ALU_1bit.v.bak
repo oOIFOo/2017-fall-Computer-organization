@@ -1,0 +1,25 @@
+module ALU_1bit( result, carryOut, a, b, invertA, invertB, operation, carryIn, less ); 
+  
+  output wire result;
+  output wire carryOut;
+  
+  input wire a;
+  input wire b;
+  input wire invertA;
+  input wire invertB;
+  input wire[1:0] operation;
+  input wire carryIn;
+  input wire less;
+  
+wire andw,orw,addw,a_in,b_in,tmp,tmp1,tmp2;
+  /*your code here*/ 
+	assign a_in = (invertA == 0)? a:~a;
+	assign b_in = (invertB == 0)? b:~b;
+
+	and and1(andw,a_in,b_in);
+	or or1(orw,a_in,b_in);
+	Full_adder(addw,carryOut,carryIn,a_in,b_in);
+
+assign result = (operation>1) ? ((operation == 2) ? addw:less):((operation == 1) ? orw:andw);
+  
+endmodule

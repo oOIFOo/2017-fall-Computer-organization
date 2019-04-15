@@ -1,0 +1,24 @@
+`timescale 1ns / 1ps
+module Test();
+reg clk;
+wire [31:0] a,b,out;
+wire [1:0] op;
+wire invertA,invertB,overflow,zero;
+reg [67:0] ALU_temp;
+
+assign a = ALU_temp[63:32];
+assign b = ALU_temp[31:0];
+assign invertA = ALU_temp[67];
+assign invertB = ALU_temp[66];
+assign operation = ALU_temp[65:64];
+
+initial begin
+clk = 0;
+ALU_temp = 67'b00100000000000000000000000000000001000000000000000000000000000000011;
+end
+
+always #0.1 clk = ~clk;
+
+
+ALU t(out,zero,overflow,a,b,invertA,invertB,op);
+endmodule

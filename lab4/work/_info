@@ -1,0 +1,384 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/User/Desktop/CO_Lab4_2017
+vAdder
+Z1 !s110 1493799252
+!i10b 1
+!s100 L0V<dz0o8hRNHmLzA[2Wd2
+Iko^Zk<K>D1J1>PnhlM4:?3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1492617154
+8C:/Users/User/Desktop/CO_Lab4_2017/Adder.v
+FC:/Users/User/Desktop/CO_Lab4_2017/Adder.v
+L0 1
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1493799252.000000
+!s107 C:/Users/User/Desktop/CO_Lab4_2017/Adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/Desktop/CO_Lab4_2017/Adder.v|
+!s101 -O0
+!i113 1
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+n@adder
+vALU
+!s110 1494560806
+!i10b 1
+!s100 PgEnC4:iCUEXaJFcAYGEk2
+ID27@8;K@:jNL^i?:WCVI71
+R2
+R0
+w1494560798
+8C:/Users/User/Desktop/CO_Lab4_2017/ALU.v
+FC:/Users/User/Desktop/CO_Lab4_2017/ALU.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1494560806.000000
+!s107 C:/Users/User/Desktop/CO_Lab4_2017/ALU.v|
+!s90 -reportprogress|300|-work|work|C:/Users/User/Desktop/CO_Lab4_2017/ALU.v|
+!s101 -O0
+!i113 1
+R5
+n@a@l@u
+vALU_1bit
+R1
+!i10b 1
+!s100 Q:F2;PG2nmRH8>fZa87X@1
+IRKLmdhm?A4:ZojnN`_S1;3
+R2
+R0
+w1491718948
+8C:/Users/User/Desktop/CO_Lab4_2017/ALU_1bit.v
+FC:/Users/User/Desktop/CO_Lab4_2017/ALU_1bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/User/Desktop/CO_Lab4_2017/ALU_1bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/Desktop/CO_Lab4_2017/ALU_1bit.v|
+!s101 -O0
+!i113 1
+R5
+n@a@l@u_1bit
+vALU_Ctrl
+!s110 1494561491
+!i10b 1
+!s100 ?VMCgRa;UW2S@2Kmf9;Ye3
+IRzdSGjXE0UQQ?5]^H=hK33
+R2
+R0
+w1494561487
+8C:/Users/User/Desktop/CO_Lab4_2017/ALU_Ctrl.v
+FC:/Users/User/Desktop/CO_Lab4_2017/ALU_Ctrl.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1494561491.000000
+!s107 C:/Users/User/Desktop/CO_Lab4_2017/ALU_Ctrl.v|
+!s90 -reportprogress|300|-work|work|C:/Users/User/Desktop/CO_Lab4_2017/ALU_Ctrl.v|
+!s101 -O0
+!i113 1
+R5
+n@a@l@u_@ctrl
+vData_Memory
+!s110 1494525858
+!i10b 1
+!s100 `O?GS]a0?k68XPcOk:@650
+ICel>8z`S<EJ9e6J@?[^k@2
+R2
+R0
+w1494525853
+8C:/Users/User/Desktop/CO_Lab4_2017/Data_Memory.v
+FC:/Users/User/Desktop/CO_Lab4_2017/Data_Memory.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1494525858.000000
+!s107 C:/Users/User/Desktop/CO_Lab4_2017/Data_Memory.v|
+!s90 -reportprogress|300|-work|work|C:/Users/User/Desktop/CO_Lab4_2017/Data_Memory.v|
+!s101 -O0
+!i113 1
+R5
+n@data_@memory
+vDecoder
+!s110 1494531174
+!i10b 1
+!s100 kBbUee1`@?=k=;?^Eg`]c3
+I2R=am4e96[iJX`78=JCIh0
+R2
+R0
+w1494530723
+8C:/Users/User/Desktop/CO_Lab4_2017/Decoder.v
+FC:/Users/User/Desktop/CO_Lab4_2017/Decoder.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1494531174.000000
+!s107 C:/Users/User/Desktop/CO_Lab4_2017/Decoder.v|
+!s90 -reportprogress|300|-work|work|C:/Users/User/Desktop/CO_Lab4_2017/Decoder.v|
+!s101 -O0
+!i113 1
+R5
+n@decoder
+vFull_adder
+!s110 1494511748
+!i10b 1
+!s100 oc6XD3ZWmLPlXk7bELG823
+IFg3n^d[8M9L?F<5gUW0fd1
+R2
+R0
+w1490633312
+8C:/Users/User/Desktop/CO_Lab4_2017/Full_adder.v
+FC:/Users/User/Desktop/CO_Lab4_2017/Full_adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1494511748.000000
+!s107 C:/Users/User/Desktop/CO_Lab4_2017/Full_adder.v|
+!s90 -reportprogress|300|-work|work|C:/Users/User/Desktop/CO_Lab4_2017/Full_adder.v|
+!s101 -O0
+!i113 1
+R5
+n@full_adder
+vInstr_Memory
+Z6 !s110 1493799253
+!i10b 1
+!s100 Q3WNoL]`J0?MSjJCQWUK51
+ITRLYZcUcVh=z8fY9a2QAC0
+R2
+R0
+w1395752436
+8C:/Users/User/Desktop/CO_Lab4_2017/Instr_Memory.v
+FC:/Users/User/Desktop/CO_Lab4_2017/Instr_Memory.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z7 !s108 1493799253.000000
+!s107 C:/Users/User/Desktop/CO_Lab4_2017/Instr_Memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/Desktop/CO_Lab4_2017/Instr_Memory.v|
+!s101 -O0
+!i113 1
+R5
+n@instr_@memory
+vMux2to1
+R6
+!i10b 1
+!s100 0Cl>njU:??lO^j<cz>E`32
+IUNbGS3>d:gEHkQPE;a34N2
+R2
+R0
+w1492621482
+8C:/Users/User/Desktop/CO_Lab4_2017/Mux2to1.v
+FC:/Users/User/Desktop/CO_Lab4_2017/Mux2to1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/User/Desktop/CO_Lab4_2017/Mux2to1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/Desktop/CO_Lab4_2017/Mux2to1.v|
+!s101 -O0
+!i113 1
+R5
+n@mux2to1
+vMux3to1
+R6
+!i10b 1
+!s100 ^R2ZJNJ4iFi@6=8klXmgG2
+I3hmTiUSjLHAQ`heC<Gia^3
+R2
+R0
+w1492621564
+8C:/Users/User/Desktop/CO_Lab4_2017/Mux3to1.v
+FC:/Users/User/Desktop/CO_Lab4_2017/Mux3to1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/User/Desktop/CO_Lab4_2017/Mux3to1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/Desktop/CO_Lab4_2017/Mux3to1.v|
+!s101 -O0
+!i113 1
+R5
+n@mux3to1
+vProgram_Counter
+R6
+!i10b 1
+!s100 n:K]j^TXMi2_Xa3I:mDbJ2
+IjOjh:le2h5;A7_X_aPjCB1
+R2
+R0
+w1395753614
+8C:/Users/User/Desktop/CO_Lab4_2017/Program_Counter.v
+FC:/Users/User/Desktop/CO_Lab4_2017/Program_Counter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/User/Desktop/CO_Lab4_2017/Program_Counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/Desktop/CO_Lab4_2017/Program_Counter.v|
+!s101 -O0
+!i113 1
+R5
+n@program_@counter
+vReg_File
+R6
+!i10b 1
+!s100 SAN?L^P>CTHgiHKXCTAI:2
+IH?Q^2^8N>2e1;;P1O2C[?2
+R2
+R0
+w1493730689
+8C:/Users/User/Desktop/CO_Lab4_2017/Reg_File.v
+FC:/Users/User/Desktop/CO_Lab4_2017/Reg_File.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/User/Desktop/CO_Lab4_2017/Reg_File.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/Desktop/CO_Lab4_2017/Reg_File.v|
+!s101 -O0
+!i113 1
+R5
+n@reg_@file
+vShifter
+R6
+!i10b 1
+!s100 <Z94GF8BObY@Li5;;=[g[2
+IAZD3_cP^Y>_6;DidA2aN50
+R2
+R0
+w1492617220
+8C:/Users/User/Desktop/CO_Lab4_2017/Shifter.v
+FC:/Users/User/Desktop/CO_Lab4_2017/Shifter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/User/Desktop/CO_Lab4_2017/Shifter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/Desktop/CO_Lab4_2017/Shifter.v|
+!s101 -O0
+!i113 1
+R5
+n@shifter
+vSign_Extend
+R6
+!i10b 1
+!s100 WWH_B0;IS[lfJ^]`gVj8m3
+Io;VOLTYFf1CfnEfln3Ni92
+R2
+R0
+w1492708447
+8C:/Users/User/Desktop/CO_Lab4_2017/Sign_Extend.v
+FC:/Users/User/Desktop/CO_Lab4_2017/Sign_Extend.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/User/Desktop/CO_Lab4_2017/Sign_Extend.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/Desktop/CO_Lab4_2017/Sign_Extend.v|
+!s101 -O0
+!i113 1
+R5
+n@sign_@extend
+vSimple_Single_CPU
+!s110 1494565068
+!i10b 1
+!s100 7GS9WoS2<<35_9dF=c5?H1
+IiJEgJ]]HIO?;7E51]Df`d1
+R2
+R0
+w1494565062
+8C:/Users/User/Desktop/CO_Lab4_2017/Simple_Single_CPU.v
+FC:/Users/User/Desktop/CO_Lab4_2017/Simple_Single_CPU.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1494565068.000000
+!s107 C:/Users/User/Desktop/CO_Lab4_2017/Simple_Single_CPU.v|
+!s90 -reportprogress|300|-work|work|C:/Users/User/Desktop/CO_Lab4_2017/Simple_Single_CPU.v|
+!s101 -O0
+!i113 1
+R5
+n@simple_@single_@c@p@u
+vTestBench
+!s110 1494561887
+!i10b 1
+!s100 BDPFhA6oh`2m8lCZ24E?k2
+IY`025Mh=F7eeQBl5HAGj52
+R2
+R0
+w1494561882
+8C:/Users/User/Desktop/CO_Lab4_2017/TestBench.v
+FC:/Users/User/Desktop/CO_Lab4_2017/TestBench.v
+L0 5
+R3
+r1
+!s85 0
+31
+!s108 1494561887.000000
+!s107 C:/Users/User/Desktop/CO_Lab4_2017/TestBench.v|
+!s90 -reportprogress|300|-work|work|C:/Users/User/Desktop/CO_Lab4_2017/TestBench.v|
+!s101 -O0
+!i113 1
+R5
+n@test@bench
+vZero_Filled
+R6
+!i10b 1
+!s100 ASeY]V14A80Y9`EQgUi3^1
+I]ThJhXXZdz6ge8D^<bLXb1
+R2
+R0
+w1493208644
+8C:/Users/User/Desktop/CO_Lab4_2017/Zero_Filled.v
+FC:/Users/User/Desktop/CO_Lab4_2017/Zero_Filled.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/User/Desktop/CO_Lab4_2017/Zero_Filled.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/Desktop/CO_Lab4_2017/Zero_Filled.v|
+!s101 -O0
+!i113 1
+R5
+n@zero_@filled

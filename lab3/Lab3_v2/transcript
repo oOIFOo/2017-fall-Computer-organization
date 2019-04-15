@@ -1,0 +1,649 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# OpenFile C:/Users/User/Desktop/Lab3_v2/TestBench.v
+vsim work.TestBench
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui C:\Users\User\Desktop\Lab3_v2\TestBench.v 
+# Start time: 22:08:27 on Apr 26,2017
+# Loading work.TestBench
+# Loading work.Simple_Single_CPU
+# Loading work.Program_Counter
+# Loading work.Adder
+# Loading work.Instr_Memory
+# Loading work.Mux2to1
+# Loading work.Reg_File
+# Loading work.Decoder
+# Loading work.ALU_Ctrl
+# Loading work.Sign_Extend
+# Loading work.Zero_Filled
+# Loading work.ALU
+# Loading work.ALU_1bit
+# Loading work.Full_adder
+# Loading work.Shifter
+# Loading work.Mux3to1
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(37): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU1 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(38): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU2 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(39): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU3 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(40): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU4 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(41): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU5 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(42): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU6 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(43): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU7 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU8 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(45): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU9 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(46): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU10 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU11 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(48): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU12 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(49): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU13 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(50): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU14 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(51): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU15 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(52): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU16 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(53): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU17 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(54): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU18 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(55): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU19 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(56): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU20 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU21 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(58): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU22 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(59): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU23 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(60): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU24 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(61): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU25 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(62): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU26 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(63): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU27 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(64): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU28 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(65): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU29 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(66): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU30 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(67): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU31 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+run -all
+# ERROR: SLLV instruction fail
+# Register           8 contains wrong answer
+# The correct value is        1024 
+# Your wrong value is           X 
+# ** Note: $stop    : C:/Users/User/Desktop/Lab3_v2/TestBench.v(242)
+#    Time: 90 ns  Iteration: 1  Instance: /TestBench
+# Break in Module TestBench at C:/Users/User/Desktop/Lab3_v2/TestBench.v line 242
+add wave -position insertpoint sim:/TestBench/cpu/ALU/*
+run -all
+# ERROR: SRLV instruction fail
+# Register           8 contains wrong answer
+# The correct value is        1024 
+# Your wrong value is           X 
+# ** Note: $stop    : C:/Users/User/Desktop/Lab3_v2/TestBench.v(242)
+#    Time: 100 ns  Iteration: 1  Instance: /TestBench
+# Break in Module TestBench at C:/Users/User/Desktop/Lab3_v2/TestBench.v line 242
+add wave -position insertpoint sim:/TestBench/cpu/*
+run -all
+# ERROR: SRLV instruction fail
+# Register           9 contains wrong answer
+# The correct value is          64 
+# Your wrong value is           X 
+# ** Note: $stop    : C:/Users/User/Desktop/Lab3_v2/TestBench.v(242)
+#    Time: 100 ns  Iteration: 1  Instance: /TestBench
+# Break in Module TestBench at C:/Users/User/Desktop/Lab3_v2/TestBench.v line 242
+run -all
+# ERROR: SRL  instruction fail
+# Register           8 contains wrong answer
+# The correct value is        1024 
+# Your wrong value is           X 
+# ** Note: $stop    : C:/Users/User/Desktop/Lab3_v2/TestBench.v(242)
+#    Time: 110 ns  Iteration: 1  Instance: /TestBench
+# Break in Module TestBench at C:/Users/User/Desktop/Lab3_v2/TestBench.v line 242
+run -all
+# ERROR: SRL  instruction fail
+# Register           9 contains wrong answer
+# The correct value is          64 
+# Your wrong value is           X 
+# ** Note: $stop    : C:/Users/User/Desktop/Lab3_v2/TestBench.v(242)
+#    Time: 110 ns  Iteration: 1  Instance: /TestBench
+# Break in Module TestBench at C:/Users/User/Desktop/Lab3_v2/TestBench.v line 242
+run -all
+# ERROR: SRL  instruction fail
+# Register          10 contains wrong answer
+# The correct value is         512 
+# Your wrong value is           X 
+# ** Note: $stop    : C:/Users/User/Desktop/Lab3_v2/TestBench.v(242)
+#    Time: 110 ns  Iteration: 1  Instance: /TestBench
+# Break in Module TestBench at C:/Users/User/Desktop/Lab3_v2/TestBench.v line 242
+run -all
+# ============================================
+#    Congratulation. You pass  TA's pattern   
+# ============================================
+# ** Note: $stop    : C:/Users/User/Desktop/Lab3_v2/TestBench.v(263)
+#    Time: 130 ns  Iteration: 0  Instance: /TestBench
+# Break in Module TestBench at C:/Users/User/Desktop/Lab3_v2/TestBench.v line 263
+run -all
+# Break key hit
+# Simulation stop requested.
+run -all
+# Break key hit
+# Simulation stop requested.
+# Load canceled
+restart
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(37): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU1 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(38): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU2 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(39): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU3 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(40): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU4 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(41): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU5 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(42): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU6 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(43): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU7 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU8 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(45): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU9 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(46): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU10 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU11 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(48): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU12 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(49): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU13 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(50): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU14 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(51): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU15 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(52): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU16 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(53): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU17 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(54): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU18 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(55): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU19 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(56): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU20 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU21 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(58): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU22 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(59): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU23 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(60): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU24 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(61): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU25 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(62): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU26 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(63): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU27 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(64): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU28 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(65): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU29 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(66): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU30 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(67): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU31 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+run -all
+# ERROR: SLLV instruction fail
+# Register           8 contains wrong answer
+# The correct value is        1024 
+# Your wrong value is           X 
+# ** Note: $stop    : C:/Users/User/Desktop/Lab3_v2/TestBench.v(242)
+#    Time: 90 ns  Iteration: 1  Instance: /TestBench
+# Break in Module TestBench at C:/Users/User/Desktop/Lab3_v2/TestBench.v line 242
+vlog -reportprogress 300 -work work C:/Users/User/Desktop/Lab3_v2/Simple_Single_CPU.v
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 22:14:27 on Apr 26,2017
+# vlog -reportprogress 300 -work work C:/Users/User/Desktop/Lab3_v2/Simple_Single_CPU.v 
+# -- Compiling module Simple_Single_CPU
+# 
+# Top level modules:
+# 	Simple_Single_CPU
+# End time: 22:14:27 on Apr 26,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.Simple_Single_CPU
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(37): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU1 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(38): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU2 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(39): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU3 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(40): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU4 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(41): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU5 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(42): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU6 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(43): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU7 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU8 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(45): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU9 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(46): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU10 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU11 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(48): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU12 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(49): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU13 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(50): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU14 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(51): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU15 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(52): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU16 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(53): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU17 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(54): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU18 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(55): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU19 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(56): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU20 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU21 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(58): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU22 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(59): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU23 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(60): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU24 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(61): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU25 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(62): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU26 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(63): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU27 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(64): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU28 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(65): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU29 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(66): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU30 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(67): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU31 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+run -all
+# ERROR: SLLV instruction fail
+# Register           8 contains wrong answer
+# The correct value is        1024 
+# Your wrong value is           X 
+# ** Note: $stop    : C:/Users/User/Desktop/Lab3_v2/TestBench.v(242)
+#    Time: 90 ns  Iteration: 1  Instance: /TestBench
+# Break in Module TestBench at C:/Users/User/Desktop/Lab3_v2/TestBench.v line 242
+run -all
+# ERROR: SRLV instruction fail
+# Register           8 contains wrong answer
+# The correct value is        1024 
+# Your wrong value is           X 
+# ** Note: $stop    : C:/Users/User/Desktop/Lab3_v2/TestBench.v(242)
+#    Time: 100 ns  Iteration: 1  Instance: /TestBench
+# Break in Module TestBench at C:/Users/User/Desktop/Lab3_v2/TestBench.v line 242
+run -all
+# ERROR: SRLV instruction fail
+# Register           9 contains wrong answer
+# The correct value is          64 
+# Your wrong value is           X 
+# ** Note: $stop    : C:/Users/User/Desktop/Lab3_v2/TestBench.v(242)
+#    Time: 100 ns  Iteration: 1  Instance: /TestBench
+# Break in Module TestBench at C:/Users/User/Desktop/Lab3_v2/TestBench.v line 242
+run -all
+# ERROR: SRL  instruction fail
+# Register           8 contains wrong answer
+# The correct value is        1024 
+# Your wrong value is           X 
+# ** Note: $stop    : C:/Users/User/Desktop/Lab3_v2/TestBench.v(242)
+#    Time: 110 ns  Iteration: 1  Instance: /TestBench
+# Break in Module TestBench at C:/Users/User/Desktop/Lab3_v2/TestBench.v line 242
+run -all
+# ERROR: SRL  instruction fail
+# Register           9 contains wrong answer
+# The correct value is          64 
+# Your wrong value is           X 
+# ** Note: $stop    : C:/Users/User/Desktop/Lab3_v2/TestBench.v(242)
+#    Time: 110 ns  Iteration: 1  Instance: /TestBench
+# Break in Module TestBench at C:/Users/User/Desktop/Lab3_v2/TestBench.v line 242
+run -all
+# ERROR: SRL  instruction fail
+# Register          10 contains wrong answer
+# The correct value is         512 
+# Your wrong value is           X 
+# ** Note: $stop    : C:/Users/User/Desktop/Lab3_v2/TestBench.v(242)
+#    Time: 110 ns  Iteration: 1  Instance: /TestBench
+# Break in Module TestBench at C:/Users/User/Desktop/Lab3_v2/TestBench.v line 242
+run -all
+# ============================================
+#    Congratulation. You pass  TA's pattern   
+# ============================================
+# ** Note: $stop    : C:/Users/User/Desktop/Lab3_v2/TestBench.v(263)
+#    Time: 130 ns  Iteration: 0  Instance: /TestBench
+# Break in Module TestBench at C:/Users/User/Desktop/Lab3_v2/TestBench.v line 263
+run -all
+# Break key hit
+# Simulation stop requested.
+restart
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(37): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU1 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(38): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU2 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(39): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU3 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(40): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU4 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(41): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU5 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(42): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU6 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(43): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU7 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU8 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(45): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU9 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(46): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU10 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU11 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(48): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU12 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(49): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU13 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(50): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU14 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(51): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU15 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(52): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU16 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(53): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU17 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(54): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU18 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(55): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU19 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(56): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU20 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU21 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(58): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU22 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(59): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU23 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(60): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU24 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(61): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU25 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(62): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU26 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(63): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU27 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(64): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU28 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(65): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU29 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(66): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU30 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(67): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU31 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+run -all
+# ERROR: SLLV instruction fail
+# Register           8 contains wrong answer
+# The correct value is        1024 
+# Your wrong value is           X 
+# ** Note: $stop    : C:/Users/User/Desktop/Lab3_v2/TestBench.v(242)
+#    Time: 90 ns  Iteration: 1  Instance: /TestBench
+# Break in Module TestBench at C:/Users/User/Desktop/Lab3_v2/TestBench.v line 242
+run -all
+# ERROR: SRLV instruction fail
+# Register           8 contains wrong answer
+# The correct value is        1024 
+# Your wrong value is           X 
+# ** Note: $stop    : C:/Users/User/Desktop/Lab3_v2/TestBench.v(242)
+#    Time: 100 ns  Iteration: 1  Instance: /TestBench
+# Break in Module TestBench at C:/Users/User/Desktop/Lab3_v2/TestBench.v line 242
+vlog -reportprogress 300 -work work C:/Users/User/Desktop/Lab3_v2/ALU.v
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 22:19:07 on Apr 26,2017
+# vlog -reportprogress 300 -work work C:/Users/User/Desktop/Lab3_v2/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 22:19:07 on Apr 26,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+run -all
+# ERROR: SRLV instruction fail
+# Register           9 contains wrong answer
+# The correct value is          64 
+# Your wrong value is           X 
+# ** Note: $stop    : C:/Users/User/Desktop/Lab3_v2/TestBench.v(242)
+#    Time: 100 ns  Iteration: 1  Instance: /TestBench
+# Break in Module TestBench at C:/Users/User/Desktop/Lab3_v2/TestBench.v line 242
+restart
+# Loading work.ALU
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(37): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU1 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(38): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU2 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(39): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU3 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(40): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU4 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(41): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU5 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(42): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU6 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(43): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU7 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU8 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(45): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU9 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(46): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU10 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU11 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(48): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU12 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(49): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU13 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(50): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU14 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(51): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU15 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(52): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU16 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(53): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU17 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(54): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU18 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(55): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU19 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(56): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU20 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU21 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(58): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU22 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(59): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU23 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(60): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU24 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(61): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU25 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(62): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU26 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(63): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU27 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(64): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU28 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(65): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU29 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(66): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU30 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(67): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU31 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+run -all
+# ERROR: SLLV instruction fail
+# Register           8 contains wrong answer
+# The correct value is        1024 
+# Your wrong value is           X 
+# ** Note: $stop    : C:/Users/User/Desktop/Lab3_v2/TestBench.v(242)
+#    Time: 90 ns  Iteration: 1  Instance: /TestBench
+# Break in Module TestBench at C:/Users/User/Desktop/Lab3_v2/TestBench.v line 242
+vlog -reportprogress 300 -work work C:/Users/User/Desktop/Lab3_v2/TestBench.v
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 22:38:02 on Apr 26,2017
+# vlog -reportprogress 300 -work work C:/Users/User/Desktop/Lab3_v2/TestBench.v 
+# -- Compiling module TestBench
+# ** Warning: C:/Users/User/Desktop/Lab3_v2/TestBench.v(87): (vlog-2252) Missing initializer in "FOR" statement.
+# 
+# ** Warning: C:/Users/User/Desktop/Lab3_v2/TestBench.v(87): (vlog-2252) Missing incrementer in "FOR" statement.
+# 
+# 
+# Top level modules:
+# 	TestBench
+# End time: 22:38:02 on Apr 26,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vlog -reportprogress 300 -work work C:/Users/User/Desktop/Lab3_v2/ALU.v
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 22:38:20 on Apr 26,2017
+# vlog -reportprogress 300 -work work C:/Users/User/Desktop/Lab3_v2/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 22:38:20 on Apr 26,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.TestBench
+# vsim 
+# Start time: 22:38:47 on Apr 26,2017
+# Loading work.TestBench
+# Loading work.Simple_Single_CPU
+# Loading work.Program_Counter
+# Loading work.Adder
+# Loading work.Instr_Memory
+# Loading work.Mux2to1
+# Loading work.Reg_File
+# Loading work.Decoder
+# Loading work.ALU_Ctrl
+# Loading work.Sign_Extend
+# Loading work.Zero_Filled
+# Loading work.ALU
+# Loading work.ALU_1bit
+# Loading work.Full_adder
+# Loading work.Shifter
+# Loading work.Mux3to1
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(36): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU1 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(37): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU2 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(38): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU3 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(39): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU4 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(40): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU5 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(41): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU6 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(42): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU7 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(43): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU8 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU9 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(45): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU10 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(46): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU11 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU12 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(48): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU13 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(49): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU14 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(50): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU15 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(51): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU16 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(52): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU17 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(53): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU18 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(54): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU19 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(55): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU20 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(56): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU21 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU22 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(58): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU23 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(59): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU24 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(60): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU25 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(61): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU26 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(62): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU27 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(63): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU28 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(64): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU29 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(65): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU30 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+# ** Warning: (vsim-3015) C:/Users/User/Desktop/Lab3_v2/ALU.v(66): [PCDPC] - Port size (1) does not match connection size (32) for port 'less'. The port definition is at: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/cpu/ALU/ALU31 File: C:/Users/User/Desktop/Lab3_v2/ALU_1bit.v
+run -all
+# ============================================
+#    Congratulation. You pass  TA's pattern   
+# ============================================
+# ** Note: $stop    : C:/Users/User/Desktop/Lab3_v2/TestBench.v(263)
+#    Time: 130 ns  Iteration: 0  Instance: /TestBench
+# Break in Module TestBench at C:/Users/User/Desktop/Lab3_v2/TestBench.v line 263

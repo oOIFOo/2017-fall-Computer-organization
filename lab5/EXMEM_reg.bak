@@ -1,0 +1,51 @@
+module EXMEM_reg( clk_i, rst_n , pc_addr_i , pc_addr_o , memread_i , memread_o , memwrite_i , memwrite_o , branch_i , branch_o , branchtype_i , branchtype_o , memtoreg_i , memtoreg_o
+alu_i , alu_o , rt_i , rt_o , rd_addr_i , rd_addr_o , branch_data_i , branch_data_o);
+     
+//I/O ports
+input           clk_i;
+input	        rst_n;
+input  [32-1:0] pc_in_i;
+output [32-1:0] pc_out_o;
+ 
+//Internal Signals
+input memread_i;
+output memread_o;
+
+input memwrite_i;
+output memwrite_o;
+
+input branch_i;
+output branch_o;
+
+input branchtype_i;
+output branchtype_o;
+
+input memtoreg_i;
+output memtoreg_o;
+
+input [31:0]alu_i;
+output [31:0]alu_o;
+
+input [31:0]rt_i;
+output [31:0]rt_o;
+
+input [4:0]rd_addr_i;
+output [4:0]rd_addr_o;
+
+input [31:0]branch_data_i;
+output [31:0]branch_data_i;
+
+input [31:0]pc_addr_i;
+output [31:0]pc_addr_o;
+
+always @(posedge clk_i or negedge rst_n) begin
+    if(~rst_n) begin
+	    
+		
+	end
+	else begin
+	    
+	end
+end
+
+endmodule

@@ -1,0 +1,36 @@
+C:/Users/User/Desktop/CO_Lab2_2017/ALU.v {1 {vlog -work work -stats=none C:/Users/User/Desktop/CO_Lab2_2017/ALU.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/User/Desktop/CO_Lab2_2017/Full_adder.v {1 {vlog -work work -stats=none C:/Users/User/Desktop/CO_Lab2_2017/Full_adder.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Full_adder
+
+Top level modules:
+	Full_adder
+
+} {} {}} C:/Users/User/Desktop/CO_Lab2_2017/Testbench.v {1 {vlog -work work -stats=none C:/Users/User/Desktop/CO_Lab2_2017/Testbench.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module TestBench
+
+Top level modules:
+	TestBench
+
+} {} {}} C:/Users/User/Desktop/CO_Lab2_2017/ALU_1bit.v {1 {vlog -work work -stats=none C:/Users/User/Desktop/CO_Lab2_2017/ALU_1bit.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ALU_1bit
+
+Top level modules:
+	ALU_1bit
+
+} {} {}} C:/Users/User/Desktop/CO_Lab2_2017/Shifter.v {1 {vlog -work work -stats=none C:/Users/User/Desktop/CO_Lab2_2017/Shifter.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Shifter
+
+Top level modules:
+	Shifter
+
+} {} {}}
